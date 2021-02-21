@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UserList>
+	<User>
+		<Name>Nikola Tesla</Name>
+		<Degree>Physics</Degree>
+		<Id>1</Id>
+	</User>
+	<User>
+		<Name>Robert Tarjan</Name>
+		<Degree>Computer Science</Degree>
+		<Id>3</Id>
+	</User>
+</UserList>
