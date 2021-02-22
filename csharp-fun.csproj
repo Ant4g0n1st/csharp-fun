@@ -6,4 +6,14 @@
     <RootNamespace>csharp_fun</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Users.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Users.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

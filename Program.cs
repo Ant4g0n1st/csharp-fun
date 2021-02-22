@@ -10,7 +10,7 @@ namespace csharp_fun
             XmlDocument document = new XmlDocument();
             try
             {
-                document.Load("../../Users.xml");
+                document.Load("Users.xml");
                 var userList = document.SelectSingleNode("UserList");
                 for (int i = 0; i < userList.ChildNodes.Count; i++)
                 {
